@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+img {
+	border: 0;
+}
+
 html {
 	background: #000;
 	background: -webkit-linear-gradient( 45deg, #000, #333, #000 );
@@ -37,6 +41,13 @@ a {
 	margin-top: 20px;
 }
 
+.well {
+	background: rgba( 255, 255, 255, .05 );
+	border: 1px solid rgba( 255, 255, 255, .1 );
+	border-radius: 4px;
+	padding: 14px;
+}
+
 #header {
 	background: rgba( 0, 0, 0, .1 );
 	border-bottom: 1px solid rgba( 255, 255, 255, .05 );
@@ -45,18 +56,18 @@ a {
 	line-height: 80px;
 }
 
-#logo {
-	font-size: 1.8em;
-	margin: 0;
+#logo img {
+	margin-top: 8px;
 }
 
 .navbar a {
 	float: left;
+	font-size: 18px;
 	height: 80px;
-	margin-left: 30px;
+	padding: 0 15px;
 	text-shadow: 0 1px 1px #000;
 }
 
 .navbar a:hover {
-	color: #00b6ff;
+	color: #f16529;
 }
