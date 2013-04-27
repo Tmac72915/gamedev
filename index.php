@@ -9,7 +9,7 @@ include_once( MODELS . 'head.php' );
 include_once( MODELS . 'header.php' );
 ?>
 
-	<div class="container tm20">
+	<div class="container tm30">
 		<div class="carousel">
 			<div class="item">
 				<div class="thumbnail">
