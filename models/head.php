@@ -20,6 +20,7 @@ if ( !defined( '_MAIN_PHP' ) ) {
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="<?php echo CSS; ?>main.css">
+	<link href="http://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" type="text/css">
+	<link href="<?php echo CSS; ?>main.css" rel="stylesheet" type="text/css">
 
 </head>
