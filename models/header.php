@@ -8,10 +8,10 @@ if ( !defined( '_MAIN_PHP' ) ) {
 	<header id="header">
 		<div class="container">
 			<div class="navbar">
-				<a href="#" id="logo"><img src="<?php echo IMG; ?>logo.png"></a>
+				<a href="/" id="logo"><img src="<?php echo IMG; ?>logo.png"></a>
 				<a href="#">Games</a>
 				<a href="#">Ideas</a>
-				<a href="#">Learn</a>
+				<a href="learn.php">Learn</a>
 				<a href="#">Create</a>
 			</div>
 		</div>

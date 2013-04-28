@@ -70,6 +70,21 @@ a {
 	text-shadow: 0 -1px 1px #000;
 }
 
+#track {
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+#track li {
+	border-bottom: 2px solid rgba( 255, 255, 255, .05 );
+	margin: 7px 0;
+}
+
+#track p {
+	color: #777;
+	font-size: .8em;
+}
+
 #header {
 	border-bottom: 1px solid rgba( 255, 255, 255, .06 );
 	box-shadow: inset 0 -5px 30px rgba( 0, 0, 0, .5 );
@@ -89,7 +104,7 @@ a {
 	text-shadow: 0 -1px 1px #000;
 }
 
-.navbar a:hover {
+a:hover {
 	color: #f16529;
 }
 
