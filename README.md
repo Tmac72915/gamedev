@@ -6,10 +6,15 @@ allow proposals and discussions on new games to create, and more!
 
 #### The Website
 * Website Name/URL (still needed)
-* PHP Backend
+* Apache server running PHP 5.3+ and MySQL
 * Frameworks (more may be added)
   * [jQuery](http://jquery.com/)
-* Layout/Structure (still needed)
+* Layout/Structure (games, ideas, learn, create pages)
+  * Games: Allows you to play the games we create and leave feedback
+  * Ideas: Allows sharing of and voting on ideas for games to create
+  * Learn: Resources for learning how to create HTML5 games
+  * Create Tools and frameworks we build for creating HTML5 games
+  * More to come...
 * Design
   * Dark Color Scheme
   * Futuristic Look

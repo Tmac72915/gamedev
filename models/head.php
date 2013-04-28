@@ -24,3 +24,4 @@ if ( !defined( '_MAIN_PHP' ) ) {
 	<link href="<?php echo CSS; ?>main.css" rel="stylesheet" type="text/css">
 
 </head>
+<?php flush(); ?>
