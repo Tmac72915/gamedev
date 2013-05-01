@@ -23,6 +23,7 @@ body {
 }
 
 a {
+	border-bottom: 1px dotted;
 	color: #ccc;
 	text-decoration: none;
 	-webkit-transition: color .2s;
@@ -52,13 +53,19 @@ a:hover {
 	width: 960px;
 }
 
+.p15 { padding: 15px; }
 .tm20 { margin-top: 20px; }
 .tm30 { margin-top: 30px; }
+
+.w50 {
+	width: 50%;
+}
 
 .well {
 	background: rgba( 255, 255, 255, .05 );
 	border: 1px solid rgba( 255, 255, 255, .1 );
 	border-radius: 4px;
+	box-sizing: border-box;
 	padding: 14px;
 }
 
@@ -78,7 +85,7 @@ a:hover {
 	background: rgba( 255, 255, 255, .05 );
 	bottom: 0;
 	left: 0;
-	padding: 15px;
+	padding: 14px;
 	position: absolute;
 	right: 0;
 	text-shadow: 0 -1px 1px #000;
@@ -99,6 +106,25 @@ a:hover {
 	font-size: .8em;
 }
 
+.grid {
+	overflow: hidden;
+}
+
+.grid2left {
+	border-right: 1px solid rgba( 255, 255, 255, 0.06 );
+	box-sizing: border-box;
+	float: left;
+	padding: 15px 25px 15px 15px;
+	width: 50%;
+}
+
+.grid2right {
+	box-sizing: border-box;
+	float: right;
+	padding: 15px 15px 15px 25px;
+	width: 50%;
+}
+
 #header {
 	border-bottom: 1px solid rgba( 255, 255, 255, .06 );
 	box-shadow: inset 0 -5px 30px rgba( 0, 0, 0, .5 );
@@ -111,6 +137,7 @@ a:hover {
 }
 
 .navbar a {
+	border: 0;
 	float: left;
 	font-size: 18px;
 	height: 80px;

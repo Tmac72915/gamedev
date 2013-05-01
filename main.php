@@ -5,8 +5,8 @@ define( '_MAIN_PHP', '1' );
 // Document root
 define( 'ROOT', $_SERVER['DOCUMENT_ROOT'] . '/' );
 
-// Includes
-define( 'MODELS', ROOT . 'models/' );
+// Views
+define( 'VIEWS', ROOT . 'views/' );
 
 // Static root
 define( 'S_ROOT', 'http://localhost/' );

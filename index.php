@@ -1,12 +1,12 @@
 <?php
 require_once( 'main.php' );
 
-include_once( MODELS . 'head.php' );
+include_once( VIEWS . 'head.php' );
 ?>
 <body>
 
 <?php
-include_once( MODELS . 'header.php' );
+include_once( VIEWS . 'header.php' );
 ?>
 
 	<div class="container tm30">
@@ -23,10 +23,21 @@ include_once( MODELS . 'header.php' );
 				</div>
 			</div>
 		</div>
+		<div class="tm30">
+			<div class="grid">
+				<div class="grid2left">
+					We area a group on <a href="http://www.codecademy.com/groups/html5-game-development/" title="Codecademy" target="_blank">Codecademy</a>
+					that is passionate about creating HTML5 games and moving the web forward.
+				</div>
+				<div class="grid2right">
+					Lorem ipsum dolor sit amet...
+				</div>
+			</div>
+		</div>
 	</div>
 
 <?php
-include_once( MODELS . 'footer.php' );
+include_once( VIEWS . 'footer.php' );
 ?>
 
 </body>

@@ -12,7 +12,7 @@ if ( !defined( '_MAIN_PHP' ) ) {
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 
-	<title>Codecademy - HTML5 Game Development Group</title>
+	<title>HTML5 Game Development Group on Codecademy</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
