@@ -13,7 +13,7 @@ if ( !defined( 'NAV_ID' ) ) {
 	<header id="header">
 		<div class="container">
 			<nav class="navbar">
-				<a href="/" id="logo"><img src="<?php echo IMG; ?>logo.png"></a>
+				<a href="<?php echo S_ROOT; ?>" id="logo"><img src="<?php echo IMG; ?>logo.png"></a>
 				<a href="#"<?php if ( NAV_ID === 'games' ) { echo ' class="active"'; } ?>>Games</a>
 				<a href="#"<?php if ( NAV_ID === 'ideas' ) { echo ' class="active"'; } ?>>Ideas</a>
 				<a href="learn.php"<?php if ( NAV_ID === 'learn' ) { echo ' class="active"'; } ?>>Learn</a>
