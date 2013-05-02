@@ -135,6 +135,10 @@ a:hover {
 	line-height: 80px;
 }
 
+.navbar {
+    position: relative;
+}
+
 #logo img {
 	margin-top: 8px;
 }
@@ -150,6 +154,47 @@ a:hover {
 
 .navbar a.active {
 	color: #fff;
+}
+
+.navbar #signin {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 26px;
+  line-height: 1;
+  
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #000;
+  
+  background: #3c3c3c;
+  background: -moz-linear-gradient(top, #606060, #3c3c3c);
+  background: -ms-linear-gradient(top, #606060, #3c3c3c);
+  background: -o-linear-gradient(top, #606060, #3c3c3c);
+  background: -webkit-linear-gradient(top, #606060, #3c3c3c);
+  background: linear-gradient(top, #606060, #3c3c3c);
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.navbar #signin:hover {
+  background: #2d2d2d;
+  background: -moz-linear-gradient(top, #484848, #2d2d2d);
+  background: -ms-linear-gradient(top, #484848, #2d2d2d);
+  background: -o-linear-gradient(top, #484848, #2d2d2d);
+  background: -webkit-linear-gradient(top, #484848, #2d2d2d);
+  background: linear-gradient(top, #484848, #2d2d2d);
 }
 
 #footer {
