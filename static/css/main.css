@@ -128,15 +128,15 @@ a:hover {
 	width: 50%;
 }
 
+.pull-right {
+	float: right;
+}
+
 #header {
 	border-bottom: 1px solid rgba( 255, 255, 255, .06 );
 	box-shadow: inset 0 -5px 30px rgba( 0, 0, 0, .5 );
 	height: 80px;
 	line-height: 80px;
-}
-
-.navbar {
-    position: relative;
 }
 
 #logo img {
@@ -145,6 +145,7 @@ a:hover {
 
 .navbar a {
 	border: 0;
+	display: block;
 	float: left;
 	font-size: 18px;
 	height: 80px;
@@ -156,45 +157,35 @@ a:hover {
 	color: #fff;
 }
 
-.navbar #signin {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  margin-top: 26px;
-  line-height: 1;
-  
-  padding: 6px 8px;
-  cursor: pointer;
-  border-radius: 5px;
-  
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 -1px 1px #000;
-  
-  background: #3c3c3c;
-  background: -moz-linear-gradient(top, #606060, #3c3c3c);
-  background: -ms-linear-gradient(top, #606060, #3c3c3c);
-  background: -o-linear-gradient(top, #606060, #3c3c3c);
-  background: -webkit-linear-gradient(top, #606060, #3c3c3c);
-  background: linear-gradient(top, #606060, #3c3c3c);
-  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+#signin {
+	background: #3c3c3c;
+	background: -webkit-linear-gradient( top, #606060, #3c3c3c );
+	background:    -moz-linear-gradient( top, #606060, #3c3c3c );
+	background:     -ms-linear-gradient( top, #606060, #3c3c3c );
+	background:      -o-linear-gradient( top, #606060, #3c3c3c );
+	background:         linear-gradient( top, #606060, #3c3c3c );
+	filter: progid:DXImageTransform.Microsoft.Gradient( startColorstr="#606060", endColorstr="#3c3c3c" );
+	border: 1px solid #000;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba( 255, 255, 255, 0.35 );
+	color: #d6d6d6;
+	cursor: pointer;
+	height: 36px;
+	line-height: 35px;
+	margin-top: 21px;
+	padding: 0 12px;
+	text-shadow: 0 -1px 1px #000;
 }
 
-.navbar #signin:hover {
-  background: #2d2d2d;
-  background: -moz-linear-gradient(top, #484848, #2d2d2d);
-  background: -ms-linear-gradient(top, #484848, #2d2d2d);
-  background: -o-linear-gradient(top, #484848, #2d2d2d);
-  background: -webkit-linear-gradient(top, #484848, #2d2d2d);
-  background: linear-gradient(top, #484848, #2d2d2d);
+#signin:hover {
+	background: #2d2d2d;
+	background: -webkit-linear-gradient( top, #484848, #2d2d2d );
+	background:    -moz-linear-gradient( top, #484848, #2d2d2d );
+	background:     -ms-linear-gradient( top, #484848, #2d2d2d );
+	background:      -o-linear-gradient( top, #484848, #2d2d2d );
+	background:         linear-gradient( top, #484848, #2d2d2d );
+	filter: progid:DXImageTransform.Microsoft.Gradient( startColorstr="#484848", endColorstr="#2d2d2d" );
+	box-shadow: inset 0 1px 1px rgba( 255, 255, 255, .2 );
 }
 
 #footer {

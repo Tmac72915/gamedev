@@ -1,7 +1,11 @@
+<?php
+
 class User {
-	public $username; // The user's username
-	public $about; // About the user, for profile
-	public $score; // User's rank on the site
-	public $games; // Games user has helped create
-	pulbic $favs; // Favorite games and ideas
+	private $username; // The user's username
+	private $about; // About the user, for profile
+	private $score; // User's rank on the site
+	private $games; // Games user has helped create
+	private $favs; // Favorite games and ideas
 }
+
+?>

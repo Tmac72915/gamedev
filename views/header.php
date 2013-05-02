@@ -18,7 +18,9 @@ if ( !defined( 'NAV_ID' ) ) {
 				<a href="#"<?php if ( NAV_ID === 'ideas' ) { echo ' class="active"'; } ?>>Ideas</a>
 				<a href="learn.php"<?php if ( NAV_ID === 'learn' ) { echo ' class="active"'; } ?>>Learn</a>
 				<a href="#"<?php if ( NAV_ID === 'create' ) { echo ' class="active"'; } ?>>Create</a>
-				<a><div id="signin">Sign in</div></a>
+			</nav>
+			<nav class="navbar pull-right">
+				<a id="signin">Sign in</a>
 			</nav>
 		</div>
 	</header>

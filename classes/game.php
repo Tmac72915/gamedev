@@ -1,11 +1,15 @@
+<?php
+
 class Game {
-	public $name; // The games name
-	public $image; // Games image location
-	public $about; // About the game
-	public $link_game; // The link to the game
-	public $link_code; // The link to the gams's code
-	public $leaders; // The game's lead developers
-	public $developers; // The game's developers
-	public $favs; // Users who have favorited the game
-	public $status; // The games status: "Alpha", "Beta", or "Complete"
+	private $name; // The games name
+	private $image; // Games image location
+	private $about; // About the game
+	private $link_game; // The link to the game
+	private $link_code; // The link to the gams's code
+	private $leaders; // The game's lead developers
+	private $developers; // The game's developers
+	private $favs; // Users who have favorited the game
+	private $status; // The games status: "Alpha", "Beta", or "Complete"
 }
+
+?>
