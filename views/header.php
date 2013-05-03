@@ -20,7 +20,7 @@ if ( !defined( 'NAV_ID' ) ) {
 				<a href="#"<?php if ( NAV_ID === 'create' ) { echo ' class="active"'; } ?>>Create</a>
 			</nav>
 			<nav class="navbar pull-right">
-				<a id="signin">Sign in</a>
+				<a id="signin">Log in</a>
 			</nav>
 		</div>
 	</header>
