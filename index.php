@@ -26,7 +26,7 @@ include_once( VIEWS . 'header.php' );
 		<div class="tm30">
 			<div class="grid">
 				<div class="grid2left">
-					We area a group on <a href="http://www.codecademy.com/groups/html5-game-development/" title="Codecademy" target="_blank">Codecademy</a>
+					We are a group on <a href="http://www.codecademy.com/groups/html5-game-development/" title="Codecademy" target="_blank">Codecademy</a>
 					that is passionate about creating HTML5 games and moving the web forward.
 				</div>
 				<div class="grid2right">
