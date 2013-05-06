@@ -11,16 +11,23 @@ include_once( VIEWS . 'head.php' );
 include_once( VIEWS . 'header.php' );
 ?>
 
-  <div class="container tm30 well">
-	    <header class="header">
+	<div class="container tm30">
+		<header class="header">
 			Try one of these awesome HTML5 games!
 		</header>
-		<div class="cell">
-		    <h2>Vilify</h2>
-		    <img src="http://placehold.it/250x170">
-		    <p>
-		        You are a mad scientist, who has just completed a doomsday device! In 24 hours the device will erupt, destroying the world! Unfortunately, those pesky Super Heroes have discovered your evil plan, and now they are invading your lab! 
-		    </p>
+		<div class="tm20">
+			<a href="#" class="cell well">
+				<h3>Vilify</h3>
+				<img src="http://placehold.it/270x170">
+			</a><!--
+			--><a href="#" class="cell well">
+				<h3>Game 2</h3>
+				<img src="http://placehold.it/270x170">
+			</a><!--
+			--><a href="#" class="cell well">
+				<h3>Game 3</h3>
+				<img src="http://placehold.it/270x170">
+			</a>
 		</div>
 	</div>
 

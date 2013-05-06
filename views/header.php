@@ -14,13 +14,13 @@ if ( !defined( 'NAV_ID' ) ) {
 		<div class="container">
 			<nav class="navbar">
 				<a href="<?php echo S_ROOT; ?>" id="logo"><img src="<?php echo IMG; ?>logo.png"></a>
-				<a href="games.php"<?php if ( NAV_ID === 'games' ) { echo ' class="active"'; } ?>>Games</a>
+				<a href="<?php echo S_ROOT; ?>games.php"<?php if ( NAV_ID === 'games' ) { echo ' class="active"'; } ?>>Games</a>
 				<a href="#"<?php if ( NAV_ID === 'ideas' ) { echo ' class="active"'; } ?>>Ideas</a>
-				<a href="learn.php"<?php if ( NAV_ID === 'learn' ) { echo ' class="active"'; } ?>>Learn</a>
+				<a href="<?php echo S_ROOT; ?>learn.php"<?php if ( NAV_ID === 'learn' ) { echo ' class="active"'; } ?>>Learn</a>
 				<a href="#"<?php if ( NAV_ID === 'create' ) { echo ' class="active"'; } ?>>Create</a>
 			</nav>
-      			<nav class="navbar pull-right">
-        			<a id="signin">Log in</a>
+      		<nav class="navbar pull-right">
+        		<a href="#" class="nav-btn">Log in</a>
 			</nav>
 		</div>
 	</header>
